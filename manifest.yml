@@ -1,0 +1,9 @@
+applications:
+- disk_quota: 1024M
+  host: ghost-steve
+  name: ghost
+  command: sh start.sh
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M
